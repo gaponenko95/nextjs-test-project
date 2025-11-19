@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Главная | Next.js FSD",
+      "description": "Добро пожаловать в наше приложение Next.js с Feature-Sliced Design"
+    },
+    "about": {
+      "title": "О проекте | Next.js FSD",
+      "description": "Узнайте больше о нашем проекте и технологическом стеке"
+    },
+    "login": {
+      "title": "Вход | Next.js FSD",
+      "description": "Войдите в свой аккаунт"
+    },
+    "root": {
+      "title": "Next.js проект с FSD",
+      "description": "Современное Next.js приложение с архитектурой Feature-Sliced Design"
+    }
+  },
+  "nav": {
+    "home": "Главная",
+    "about": "О проекте",
+    "login": "Войти",
+    "logout": "Выйти"
+  },
+  "home": {
+    "title": "Добро пожаловать в наш проект",
+    "subtitle": "Next.js приложение с Feature-Sliced Design",
+    "feature1Title": "Современная архитектура",
+    "feature1Description": "Построено с FSD архитектурой для масштабируемости и поддерживаемости",
+    "feature2Title": "Интернационализация",
+    "feature2Description": "Поддержка нескольких языков из коробки",
+    "feature3Title": "Аутентификация",
+    "feature3Description": "Безопасная аутентификация с сохранением сессий"
+  },
+  "about": {
+    "title": "О проекте",
+    "subtitle": "Технологический стек и возможности",
+    "description": "Это демонстрационный проект, демонстрирующий современные практики веб-разработки с Next.js, TypeScript и FSD архитектурой.",
+    "techStackTitle": "Технологический стек",
+    "techStack": "Next.js 16 (App Router), TypeScript, Ant Design, Zustand, next-intl",
+    "featuresTitle": "Ключевые возможности",
+    "features": "Система аутентификации, Интернационализация, Защищённые маршруты, Адаптивный дизайн"
+  },
+  "login": {
+    "title": "Вход",
+    "emailLabel": "Почта",
+    "emailPlaceholder": "Введите ваш email",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите ваш пароль",
+    "submitButton": "Войти",
+    "hint": "Подсказка: Используйте любой email и пароль",
+    "errors": {
+      "requiredEmail": "Пожалуйста, введите email!",
+      "invalidEmail": "Пожалуйста, введите корректный email!",
+      "requiredPassword": "Пожалуйста, введите пароль!"
+    }
+  }
+}

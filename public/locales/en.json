@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Home | Next.js FSD",
+      "description": "Welcome to our Next.js application with Feature-Sliced Design"
+    },
+    "about": {
+      "title": "About | Next.js FSD",
+      "description": "Learn more about our project and technology stack"
+    },
+    "login": {
+      "title": "Login | Next.js FSD",
+      "description": "Sign in to your account"
+    },
+    "root": {
+      "title": "Next.js Project with FSD",
+      "description": "Modern Next.js application with Feature-Sliced Design architecture"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Welcome to Our Project",
+    "subtitle": "Next.js Application with Feature-Sliced Design",
+    "feature1Title": "Modern Architecture",
+    "feature1Description": "Built with FSD architecture for scalability and maintainability",
+    "feature2Title": "Internationalization",
+    "feature2Description": "Support for multiple languages out of the box",
+    "feature3Title": "Authentication",
+    "feature3Description": "Secure authentication with persistent sessions"
+  },
+  "about": {
+    "title": "About This Project",
+    "subtitle": "Technical Stack and Features",
+    "description": "This is a demonstration project showcasing modern web development practices with Next.js, TypeScript, and FSD architecture.",
+    "techStackTitle": "Technology Stack",
+    "techStack": "Next.js 16 (App Router), TypeScript, Ant Design, Zustand, next-intl",
+    "featuresTitle": "Key Features",
+    "features": "Authentication system, Internationalization, Protected routes, Responsive design"
+  },
+  "login": {
+    "title": "Login",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "submitButton": "Sign In",
+    "hint": "Hint: Use any email and password",
+    "errors": {
+      "requiredEmail": "Please enter your email!",
+      "invalidEmail": "Please enter a valid email!",
+      "requiredPassword": "Please input your password!"
+    }
+  }
+}

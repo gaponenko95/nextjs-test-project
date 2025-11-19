@@ -1,4 +1,4 @@
-import { HomePage } from "@/pages/home/HomePage";
+import { LoginForm } from "@/features/auth";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
@@ -6,11 +6,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
 
   return {
-    title: t("metadata.home.title"),
-    description: t("metadata.home.description"),
+    title: t("metadata.login.title"),
+    description: t("metadata.login.description"),
   };
 }
 
-export default function Home() {
-  return <HomePage />;
+export default function Login() {
+  return <LoginForm />;
 }
