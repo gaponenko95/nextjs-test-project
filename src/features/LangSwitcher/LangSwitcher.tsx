@@ -5,33 +5,39 @@ import { useLocale } from "next-intl";
 import { Button } from "@/shared/ui";
 import { useTransition } from "react";
 import { Globe } from "lucide-react";
+import Cookies from "js-cookie";
+import {
+  COOKIE_NAMES,
+  COOKIE_OPTIONS,
+  LOCALES,
+} from "@/shared/config/constants";
 
-export const LanguageSwitcher = () => {
+export const LangSwitcher = () => {
   const locale = useLocale();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
 
   const changeLanguage = (newLocale: string) => {
     startTransition(() => {
-      document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`;
+      Cookies.set(COOKIE_NAMES.NEXT_LOCALE, newLocale, COOKIE_OPTIONS);
       router.refresh();
     });
   };
 
-  return locale === "ru" ? (
+  return locale === LOCALES.RU ? (
     <Button
-      size="sm"
       icon={<Globe className="w-4 h-4" />}
-      onClick={() => changeLanguage("en")}
+      onClick={() => changeLanguage(LOCALES.EN)}
+      className="md:w-auto w-full"
       disabled={isPending}
     >
       EN
     </Button>
   ) : (
     <Button
-      size="sm"
       icon={<Globe className="w-4 h-4" />}
-      onClick={() => changeLanguage("ru")}
+      onClick={() => changeLanguage(LOCALES.RU)}
+      className="md:w-auto w-full"
       disabled={isPending}
     >
       RU

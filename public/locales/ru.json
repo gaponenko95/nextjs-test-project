@@ -1,46 +1,47 @@
 {
   "metadata": {
     "home": {
-      "title": "Главная | Next.js FSD",
-      "description": "Добро пожаловать в наше приложение Next.js с Feature-Sliced Design"
+      "title": "Главная",
+      "description": "Добро пожаловать на наш сайт"
     },
     "about": {
-      "title": "О проекте | Next.js FSD",
-      "description": "Узнайте больше о нашем проекте и технологическом стеке"
+      "title": "О нас",
+      "description": "Узнайте больше о нас"
     },
     "login": {
-      "title": "Вход | Next.js FSD",
+      "title": "Вход",
       "description": "Войдите в свой аккаунт"
     },
     "root": {
-      "title": "Next.js проект с FSD",
-      "description": "Современное Next.js приложение с архитектурой Feature-Sliced Design"
+      "title": "Добро пожаловать",
+      "description": "Простое и современное веб-приложение"
     }
   },
   "nav": {
     "home": "Главная",
-    "about": "О проекте",
+    "about": "О нас",
     "login": "Войти",
-    "logout": "Выйти"
+    "logout": "Выйти",
+    "menu": "Меню"
   },
   "home": {
-    "title": "Добро пожаловать в наш проект",
-    "subtitle": "Next.js приложение с Feature-Sliced Design",
-    "feature1Title": "Современная архитектура",
-    "feature1Description": "Построено с FSD архитектурой для масштабируемости и поддерживаемости",
-    "feature2Title": "Интернационализация",
-    "feature2Description": "Поддержка нескольких языков из коробки",
-    "feature3Title": "Аутентификация",
-    "feature3Description": "Безопасная аутентификация с сохранением сессий"
+    "title": "Главная",
+    "subtitle": "Простое веб-приложение",
+    "feature1Title": "Легко использовать",
+    "feature1Description": "Понятный и удобный интерфейс",
+    "feature2Title": "Несколько языков",
+    "feature2Description": "Доступно на разных языках",
+    "feature3Title": "Безопасный вход",
+    "feature3Description": "Ваши данные защищены"
   },
   "about": {
-    "title": "О проекте",
-    "subtitle": "Технологический стек и возможности",
-    "description": "Это демонстрационный проект, демонстрирующий современные практики веб-разработки с Next.js, TypeScript и FSD архитектурой.",
-    "techStackTitle": "Технологический стек",
-    "techStack": "Next.js 16 (App Router), TypeScript, Ant Design, Zustand, next-intl",
-    "featuresTitle": "Ключевые возможности",
-    "features": "Система аутентификации, Интернационализация, Защищённые маршруты, Адаптивный дизайн"
+    "title": "О нас",
+    "subtitle": "Чем мы занимаемся",
+    "description": "Мы создаем простые и удобные приложения",
+    "techStackTitle": "Что мы используем",
+    "techStack": "Современные технологии",
+    "featuresTitle": "Возможности",
+    "features": "Авторизация, несколько языков, безопасный доступ"
   },
   "login": {
     "title": "Вход",
@@ -49,11 +50,11 @@
     "passwordLabel": "Пароль",
     "passwordPlaceholder": "Введите ваш пароль",
     "submitButton": "Войти",
-    "hint": "Подсказка: Используйте любой email и пароль",
+    "hint": "Используйте любой email и пароль",
     "errors": {
-      "requiredEmail": "Пожалуйста, введите email!",
-      "invalidEmail": "Пожалуйста, введите корректный email!",
-      "requiredPassword": "Пожалуйста, введите пароль!"
+      "requiredEmail": "Введите email",
+      "invalidEmail": "Введите корректный email",
+      "requiredPassword": "Введите пароль"
     }
   }
 }

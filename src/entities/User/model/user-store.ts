@@ -1,35 +1,25 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import Cookies from "js-cookie";
+import { COOKIE_NAMES } from "@/shared/config/constants";
+import { cookieStorage } from "@/shared/lib/storage/cookieStorage";
 
-interface User {
+type User = {
   email: string;
-}
+};
 
-interface AuthState {
+type UserStore = {
   user: User | null;
   isAuthenticated: boolean;
   login: (email: string, password: string) => boolean;
   logout: () => void;
-}
-
-const cookieStorage = {
-  getItem: (name: string): string | null => {
-    return Cookies.get(name) ?? null;
-  },
-  setItem: (name: string, value: string): void => {
-    Cookies.set(name, value, { expires: 365, sameSite: "Lax" });
-  },
-  removeItem: (name: string): void => {
-    Cookies.remove(name);
-  },
 };
 
-export const useAuthStore = create<AuthState>()(
+export const useUserStore = create<UserStore>()(
   persist(
     (set) => ({
       user: null,
       isAuthenticated: false,
+
       login: (email: string, password: string) => {
         if (email && password) {
           set({ user: { email }, isAuthenticated: true });
@@ -37,12 +27,13 @@ export const useAuthStore = create<AuthState>()(
         }
         return false;
       },
+
       logout: () => {
         set({ user: null, isAuthenticated: false });
       },
     }),
     {
-      name: "auth-storage",
+      name: COOKIE_NAMES.AUTH_STORAGE,
       storage: createJSONStorage(() => cookieStorage),
     }
   )

@@ -19,3 +19,10 @@ export {
   FormMessage,
   FormField,
 } from "./Form";
+export {
+  Sheet,
+  SheetTrigger,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "./Sheet";

@@ -1,46 +1,47 @@
 {
   "metadata": {
     "home": {
-      "title": "Home | Next.js FSD",
-      "description": "Welcome to our Next.js application with Feature-Sliced Design"
+      "title": "Home",
+      "description": "Welcome to our website"
     },
     "about": {
-      "title": "About | Next.js FSD",
-      "description": "Learn more about our project and technology stack"
+      "title": "About",
+      "description": "Learn more about us"
     },
     "login": {
-      "title": "Login | Next.js FSD",
+      "title": "Login",
       "description": "Sign in to your account"
     },
     "root": {
-      "title": "Next.js Project with FSD",
-      "description": "Modern Next.js application with Feature-Sliced Design architecture"
+      "title": "Welcome",
+      "description": "Simple and modern web application"
     }
   },
   "nav": {
     "home": "Home",
     "about": "About",
     "login": "Login",
-    "logout": "Logout"
+    "logout": "Logout",
+    "menu": "Menu"
   },
   "home": {
-    "title": "Welcome to Our Project",
-    "subtitle": "Next.js Application with Feature-Sliced Design",
-    "feature1Title": "Modern Architecture",
-    "feature1Description": "Built with FSD architecture for scalability and maintainability",
-    "feature2Title": "Internationalization",
-    "feature2Description": "Support for multiple languages out of the box",
-    "feature3Title": "Authentication",
-    "feature3Description": "Secure authentication with persistent sessions"
+    "title": "Welcome",
+    "subtitle": "Simple web application",
+    "feature1Title": "Easy to use",
+    "feature1Description": "Intuitive and user-friendly interface",
+    "feature2Title": "Multiple languages",
+    "feature2Description": "Available in different languages",
+    "feature3Title": "Secure login",
+    "feature3Description": "Your data is protected"
   },
   "about": {
-    "title": "About This Project",
-    "subtitle": "Technical Stack and Features",
-    "description": "This is a demonstration project showcasing modern web development practices with Next.js, TypeScript, and FSD architecture.",
-    "techStackTitle": "Technology Stack",
-    "techStack": "Next.js 16 (App Router), TypeScript, Ant Design, Zustand, next-intl",
-    "featuresTitle": "Key Features",
-    "features": "Authentication system, Internationalization, Protected routes, Responsive design"
+    "title": "About us",
+    "subtitle": "What we do",
+    "description": "We create simple and easy to use applications.",
+    "techStackTitle": "What we use",
+    "techStack": "Modern web technologies",
+    "featuresTitle": "Features",
+    "features": "Login system, multiple languages, secure access, works on all devices"
   },
   "login": {
     "title": "Login",
@@ -49,11 +50,11 @@
     "passwordLabel": "Password",
     "passwordPlaceholder": "Enter your password",
     "submitButton": "Sign In",
-    "hint": "Hint: Use any email and password",
+    "hint": "Use any email and password",
     "errors": {
-      "requiredEmail": "Please enter your email!",
-      "invalidEmail": "Please enter a valid email!",
-      "requiredPassword": "Please input your password!"
+      "requiredEmail": "Please enter your email",
+      "invalidEmail": "Please enter a valid email",
+      "requiredPassword": "Please enter your password"
     }
   }
 }

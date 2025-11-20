@@ -1,4 +1,4 @@
-import { LoginForm } from "@/features/auth";
+import { LoginForm } from "@/features/LoginForm";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
